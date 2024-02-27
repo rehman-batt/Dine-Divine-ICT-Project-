@@ -1,0 +1,20 @@
+
+.container {
+    
+    width: 40%;
+}
+
+label {
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+#p-btn {
+    background-color: #990011;
+    color: #FCF6F5;
+}
+
+#p-btn:hover {
+    opacity: 90%;
+}
+

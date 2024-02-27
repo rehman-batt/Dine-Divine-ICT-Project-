@@ -1,0 +1,53 @@
+.container {
+    width: 60%;
+    
+}
+
+#st-loc {
+    text-align: end;
+}
+
+
+.navigation-bar {
+    height: 70px;
+    background-color: #990011;
+    color: #FCF6F5;
+    position: relative;
+    
+    
+}
+
+.navigation-bar button {
+    color: #FCF6F5;
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.navigation-bar button:hover {
+    opacity: 90%;
+}
+
+#deals {
+    width: 100%;
+    text-align: center;
+}
+
+.deal-btn button {
+    background-color: #990011;
+    color: #FCF6F5;
+}
+
+.deal-btn button:hover {
+    opacity: 90%;
+}
+
+li a:hover {
+    opacity: 90%;
+}
+
+div p a:hover {
+    opacity: 90%;
+}

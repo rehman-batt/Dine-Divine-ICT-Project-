@@ -1,0 +1,60 @@
+/* .container {
+    width: 60%;
+    
+} */
+
+#st-loc {
+    text-align: end;
+}
+
+.navigation-bar {
+    height: 70px;
+    background-color: #990011;
+    color: #FCF6F5;
+    position: relative;
+    
+    
+}
+
+.navigation-bar button {
+    color: #FCF6F5;
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.navigation-bar button:hover {
+    opacity: 90%;
+}
+
+/* #deals {
+
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-top: 15px;
+    margin-left: -12px;
+    margin-right: -12px;
+    width: 100%;
+    font-family: cursive;
+    text-align: center;
+    border-style: inset;
+    border-width: 0.5px;
+    border-color: silver;
+} */
+
+.deal-btn button {
+    background-color: #990011;
+    color: #FCF6F5;
+}
+
+.deal-btn button:hover {
+    opacity: 90%;
+}
+
+#deals {
+    padding-top: 15px;
+    text-align: center;
+
+} 

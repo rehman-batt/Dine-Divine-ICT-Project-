@@ -1,0 +1,120 @@
+body, html {
+    height: 100%;
+  }
+  
+  .background {
+    
+    background-image: url("/Images/title.jpg");
+
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+
+
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.main_div {
+    height: 750px;
+    width: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+#logo {
+    height: 200px;
+    
+    background-color: #990011;
+    color: #FCF6F5;
+    font-size: xxx-large;
+    text-align: center;
+    position: relative;
+}
+#name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#input {
+    height: 500;
+    width: 100%;
+    /* text-align: center; */
+    margin-top: 30px;
+    position: absolute;
+}
+
+#input a {
+    color: #00008b;
+}
+
+#flogin {
+    margin-top: 40px;
+    width: 500px;
+    height: 70;
+    background-color: #4267B2;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#glogin {
+    margin-top: 10px;
+    width: 500px;
+    height: 70;
+    background-color: #DB4437;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.input-field {
+    width: 600px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    margin-top: 10px;
+}  
+
+#f-pass {
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    
+}
+
+#sign-up {
+
+    margin-top: 10px;
+    margin-bottom: 20px; 
+    
+} 
+
+
+
+#submit-btn {
+    width: 80px;
+    height: 40px;
+    background-color: #990011;
+    color: #FCF6F5;
+    float: right;
+    margin-top: 10px;
+}
+
+.row h1 {
+    text-align: center;
+}
+
+label {
+    margin-left: 2px;
+    margin-top: 6px;
+    padding-top: 5px;
+    /* margin-bottom: 2px; */
+}
